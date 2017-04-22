@@ -1,19 +1,7 @@
-
 # coding: utf-8
-
-# In[36]:
-
 from keras.models import Sequential, Model
 from keras.layers import Dense, Activation, Flatten, Input, BatchNormalization, AveragePooling2D
 from keras.layers import Conv2D, SeparableConv2D
-
-
-# In[ ]:
-
-
-
-
-# In[45]:
 
 class MobileNet():
 
@@ -76,19 +64,3 @@ class MobileNet():
         self.separable_filters()
         self.final_conv_block()
         self.pool_and_classify()
-
-
-# In[46]:
-
-
-
-
-# In[47]:
-
-
-
-
-# In[ ]:
-
-
-
